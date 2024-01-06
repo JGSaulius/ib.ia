@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-    public class IAexample {
+    public class CStasksMethods {
 
         static void youAreGreat(String studentName) {
             System.out.println("You are great, " + studentName + "!");
@@ -204,7 +204,6 @@ import java.util.Random;
         public static void main(String[] args) {
             Random random = new Random();
             Scanner scanner = new Scanner(System.in);
-            Tasks.main();
             System.out.println("Hi, what is your name?");
             String studentName = scanner.next();
             System.out.println("Hi, " + studentName);

@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0148b59-dc88-49bd-a959-a5148eff9d4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iaexample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAexample.java" afterDir="false" />
+    <list default="true" id="d0148b59-dc88-49bd-a959-a5148eff9d4d" name="Changes" comment="2 klases">
+      <change afterPath="$PROJECT_DIR$/src/BubbleSortTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecimalToBinaryTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImageSizeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LetterToCodeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordCheckGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IAexample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +27,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -66,6 +65,13 @@
       <option name="presentableId" value="Default" />
       <updated>1702844159615</updated>
     </task>
+    <task id="LOCAL−00001" summary="2 klases">
+      <created>1704510663665</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1704510663665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 klases" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 klases" />
   </component>
 </project>
