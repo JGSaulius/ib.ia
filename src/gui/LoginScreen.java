@@ -1,12 +1,12 @@
 package gui;
 
-
 import javax.swing.*;
 import java.awt.*;
 
-class LoginScreen {
+public class LoginScreen {
     private String username;
     private char[] password;
+    private boolean loginCompleted;
 
     public boolean showLoginScreen() {
         JFrame frame = new JFrame("Login");
@@ -31,6 +31,7 @@ class LoginScreen {
         loginButton.addActionListener(e -> {
             username = usernameField.getText();
             password = passwordField.getPassword();
+            loginCompleted = true;
             frame.dispose(); // Close the login window
         });
 
@@ -38,12 +39,12 @@ class LoginScreen {
         frame.setVisible(true);
 
         // Wait for login to complete before returning
-        while (username == null || password == null) {
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException ignored) {
-            }
-        }
+//        while (!loginCompleted) {
+//            try {
+//                Thread.sleep(100);
+//            } catch (InterruptedException ignored) {
+//            }
+//        }
 
         return isValidLogin(username, new String(password));
     }
