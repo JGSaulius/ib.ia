@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0148b59-dc88-49bd-a959-a5148eff9d4d" name="Changes" comment="Database Mysql">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/databaseconnect/DatabaseConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/databaseconnect/DatabaseConnectGetSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ib.ia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ib.ia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CStasksOOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginScreen.java" afterDir="false" />
     </list>
@@ -89,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.LoginScreen" />
+      <module name="ib.ia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CStasksOOP.Main" />
       <module name="ib.ia" />
@@ -99,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LoginScreen" />
         <item itemvalue="Application.DatabaseConnectGetSet" />
         <item itemvalue="Application.DatabaseConnect" />
       </list>
@@ -149,7 +159,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1704519565356</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Database Mysql">
+      <created>1704549036779</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1704549036779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

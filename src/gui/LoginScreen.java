@@ -1,14 +1,25 @@
 package gui;
 
+import databaseconnect.DatabaseConnectGetSet;
+
 import javax.swing.*;
 import java.awt.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class LoginScreen {
     private String username;
     private char[] password;
     private boolean loginCompleted;
+    private DatabaseConnectGetSet databaseConnect;
 
-    public boolean showLoginScreen() {
+    public LoginScreen(DatabaseConnectGetSet databaseConnect) {
+        this.databaseConnect = databaseConnect;
+    }
+
+    public String showLoginScreen() {
         JFrame frame = new JFrame("Login");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 150);
@@ -39,23 +50,32 @@ public class LoginScreen {
         frame.setVisible(true);
 
         // Wait for login to complete before returning
-//        while (!loginCompleted) {
-//            try {
-//                Thread.sleep(100);
-//            } catch (InterruptedException ignored) {
-//            }
-//        }
+        while (!loginCompleted) {
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException ignored) {
+            }
+        }
 
-        return isValidLogin(username, new String(password));
+        return isValidLogin(username, new String(password)) ? username : null;
     }
 
-    public String getUsername() {
-        return username;
-    }
+    private boolean isValidLogin(String username, String password) {
+        try {
+            Connection connection = databaseConnect.getConnection();
+            String query = "SELECT * FROM Users WHERE Uname = ? AND Password = ?";
 
-    private static boolean isValidLogin(String username, String password) {
-        // Perform your login validation logic here
-        // For demonstration purposes, accept any non-empty username and password "admin"
-        return !username.isEmpty() && password.equals("admin");
+            try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setString(1, username);
+                preparedStatement.setString(2, password);
+
+                try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                    return resultSet.next(); // If a row is returned, the credentials are valid
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }
