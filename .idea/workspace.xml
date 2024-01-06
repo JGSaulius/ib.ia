@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0148b59-dc88-49bd-a959-a5148eff9d4d" name="Changes" comment="OOP klases">
-      <change afterPath="$PROJECT_DIR$/src/CStasksOOP/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/LoginScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSortTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/BubbleSortTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CStasksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStaskMethods/CStasksMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecimalToBinaryTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/DecimalToBinaryTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageSizeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/ImageSizeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LetterToCodeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/LetterToCodeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordCheckGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PasswordCheckGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStasksOOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/PasswordCheckGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PasswordCheckGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CStasksOOP.Main" />
@@ -105,7 +100,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1704513822381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="OOP klases">
+      <created>1704518817760</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1704518817760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +114,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

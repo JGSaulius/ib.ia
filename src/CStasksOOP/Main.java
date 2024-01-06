@@ -1,13 +1,8 @@
 package CStasksOOP;
 
-import CStasksOOP.BubbleSortTask;
-import CStasksOOP.DecimalToBinaryTask;
-import CStasksOOP.ImageSizeTask;
-import CStasksOOP.LetterToCodeTask;
-
 import java.util.Scanner;
 import java.util.Random;
-import gui.PasswordCheckGUI;
+import gui.;
 public class Main {
     public static void main(String[] args) {
         Random random = new Random();
