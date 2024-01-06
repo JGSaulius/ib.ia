@@ -1,3 +1,5 @@
+package CStasksOOP;
+
 import java.util.Scanner;
 
 class DecimalToBinaryTask extends Task {

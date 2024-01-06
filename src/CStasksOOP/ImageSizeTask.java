@@ -1,8 +1,10 @@
+package CStasksOOP;
+
 import java.util.Random;
 import java.util.Scanner;
 
-class LetterToCodeTask extends Task {
-    public LetterToCodeTask(String studentName) {
+class ImageSizeTask extends Task {
+    public ImageSizeTask(String studentName) {
         super(studentName);
     }
 

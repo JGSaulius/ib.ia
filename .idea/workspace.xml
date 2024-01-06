@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0148b59-dc88-49bd-a959-a5148eff9d4d" name="Changes" comment="OOP klases">
+      <change afterPath="$PROJECT_DIR$/src/CStasksOOP/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CStasksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSortTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/BubbleSortTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CStasksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStaskMethods/CStasksMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecimalToBinaryTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/DecimalToBinaryTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageSizeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/ImageSizeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LetterToCodeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/LetterToCodeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CStasksOOP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PasswordCheckGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PasswordCheckGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="CStasksOOP.Main" />
       <module name="ib.ia" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,7 +93,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1704513338135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="OOP klases">
+      <created>1704513683749</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1704513683749</updated>
+    </task>
+    <task id="LOCAL−00004" summary="OOP klases">
+      <created>1704513822381</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1704513822381</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
