@@ -202,44 +202,44 @@ import java.util.Random;
         }
 
         public static void main(String[] args) {
-            Random random = new Random();
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Hi, what is your name?");
-            String studentName = scanner.next();
-            System.out.println("Hi, " + studentName);
-
-            System.out.println("Welcome to Computer Science practice!");
-            System.out.println("Task 1: Calculate the file size of an image with a given color depth.");
-            System.out.println("Task 2: Convert a decimal fraction to 8 bits binary (4 bits integer + 4 bits fractional).");
-            System.out.println("Task 3: Convert letters to binary ASCII codes.");
-            System.out.println("Task 4: Bubble Sort Iterations.");
-
-            while (true) {
-                System.out.print("Please choose a task (1, 2, 3 or 4) or 0 for random:");
-                int taskNumber = scanner.nextInt();
-                if (taskNumber == 0) {
-                    taskNumber = 1 + random.nextInt(3);
-                    System.out.println(taskNumber);
-                }
-                if ((taskNumber > 0) && (taskNumber < 5)) {
-                    switch (taskNumber) {
-                        case 1:
-                            imageSize(studentName);
-                            break;
-                        case 2:
-                            decimalToBinary(studentName);
-                            break;
-                        case 3:
-                            letterToCode(studentName);
-                            break;
-                        case 4:
-                            bubbleSortTask(studentName);
-                            break;
-                    }
-                } else {
-                    System.out.println("Invalid task number.");
-                }
-            }
+//            Random random = new Random();
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.println("Hi, what is your name?");
+//            String studentName = scanner.next();
+//            System.out.println("Hi, " + studentName);
+//
+//            System.out.println("Welcome to Computer Science practice!");
+//            System.out.println("Task 1: Calculate the file size of an image with a given color depth.");
+//            System.out.println("Task 2: Convert a decimal fraction to 8 bits binary (4 bits integer + 4 bits fractional).");
+//            System.out.println("Task 3: Convert letters to binary ASCII codes.");
+//            System.out.println("Task 4: Bubble Sort Iterations.");
+//
+//            while (true) {
+//                System.out.print("Please choose a task (1, 2, 3 or 4) or 0 for random:");
+//                int taskNumber = scanner.nextInt();
+//                if (taskNumber == 0) {
+//                    taskNumber = 1 + random.nextInt(3);
+//                    System.out.println(taskNumber);
+//                }
+//                if ((taskNumber > 0) && (taskNumber < 5)) {
+//                    switch (taskNumber) {
+//                        case 1:
+//                            imageSize(studentName);
+//                            break;
+//                        case 2:
+//                            decimalToBinary(studentName);
+//                            break;
+//                        case 3:
+//                            letterToCode(studentName);
+//                            break;
+//                        case 4:
+//                            bubbleSortTask(studentName);
+//                            break;
+//                    }
+//                } else {
+//                    System.out.println("Invalid task number.");
+//                }
+//            }
         }
 
 
